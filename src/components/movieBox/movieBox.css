@@ -1,0 +1,33 @@
+.posters{
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    display: grid;
+    grid-gap: 10px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+}
+
+.movie{
+    text-align: center;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.movie img{
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    transition: ease-in-out 0.2s;
+}
+.movie img:hover{
+    transform: scale(1.1);
+}
+
+.movie span{
+    display: block;
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+}
+.posters h2{
+    font-size: 20px;
+}
