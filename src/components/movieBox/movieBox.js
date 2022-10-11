@@ -10,7 +10,7 @@ const MovieBox = ({movies}) => {
                         <span>{filmes.Title}</span>
                     </div>
                 )
-            }): <h2>Nenhum filme encontrado!</h2>}
+            }): <h2>No movies found!</h2>}
         </section>
     )
 }

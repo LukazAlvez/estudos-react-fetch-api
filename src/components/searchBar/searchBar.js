@@ -10,10 +10,10 @@ const SearchBar = () =>{
     })
 
     const [input, setInput] = useState({
-        value: 'Digite nome de um filme'
+        value: 'Enter the movie name...'
     })
 
-    const [search, setSearch] = useState('')
+    const [search, setSearch] = useState('avengers')
 
     useEffect(()=>{
         fechtMovie(search).then((data)=>{
